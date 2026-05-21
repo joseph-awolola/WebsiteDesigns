@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-color: #fff;
+    --text-color: #111;
+    --accent-color: rgb(223, 145, 0);
+    --lighter-color: #E2E1CD;
+    --hover-color: rgb(196, 127, 0);
+    --secondary-text-color: rgb(86, 86, 86);
+}   
+
+
+
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("Images/pexels-eva-bronzini-6864534.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: right;
+    background-color: var(--lighter-color);
+    background-position: right -190px;
+    animation: slideImage 1s ease-out forwards;
+}
+
+@keyframes slideText {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideImage {
+    from {
+        background-position: right -150px;
+        opacity: 0;
+    } 
+    to {
+        background-position: right -210px;
+        opacity: 1;
+    }
+}
+
+.text_description span {
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hero {
+    padding: 30px;
+}
+
+.text_description h1 {
+    font-size: 70px;
+    font-weight: bold;
+    opacity: 0;
+    animation: slideText 1s ease-out forwards;
+}
+
+.text_description p {   
+    width: 600px;
+    line-height: 27px;
+    animation: slideText 1s ease-out forwards;
+}
+
+.text_description button {
+    animation: slideText 1s ease-out forwards;
+    
+}
+header nav h3 {
+    position: absolute;
+    left: 20px;
+}
+
+header nav {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10%;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+header nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+header nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+button {
+    position: absolute;
+    right: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 20px;
+    color: var(--background-color);
+    transition: background-color .5s ease;
+}
+
+.order, .about {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.about {
+    background-color: var(--background-color);
+    border: solid 1px var(--text-color);
+    color: var(--text-color);
+    transition: background-color .5s ease;
+}
+
+.about:hover {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    border: none;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+}
+
+
+main .info_containers {
+    height: 100vh;
+    width: 100%;
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 15em 15em;  
+    grid-gap: .2em;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+@media (max-width: 1000px) {
+    main .info_containers{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 15em 15em 15em 15em;
+        height: auto;  
+    }
+}
+@media (max-width: 760px) {
+    main .info_containers{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 15em 15em 15em 15em;
+        height: auto;  
+    }
+}
+
+.info_containers .info_box {
+    border-radius: 30px;
+    background-color: var(--lighter-color);   
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info_box h4 {
+    font-size: 25px;
+}
+
+.info_box span {
+    font-size: 12px;
+    font-weight: 100;
+    color: var(--accent-color);
+}
+
+.info_box p {
+    font-size: 12px;
+}
+
+.info_box i{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.other_content {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+h2 {
+    font-size: 57px;
+}
+
+.other_content p {
+    
+    color: var(--secondary-text-color);
+}
+
+.options{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: .2em;
+    gap: 20px;
+    justify-content: center;
+}
+
+.options .option_box:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 10px grey;
+    
+}
+
+.options .option_box {
+    background-color: #f2f1e2;
+    margin: 10px;
+    border-radius: 30px;
+    transform: translateY(50px);
+    transition: box-shadow .5s ease;
+}
+
+.visible {
+  opacity: 0;
+  animation: 1s ease-out 0s 1 slideInFromBottom forwards;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+.option_box .text_bar {
+    padding: 20px;
+}
+.text_bar h1 
+{
+    font-size: 25px;
+}
+.option_box .text_bar p {
+    width: 300px;
+    font-size: 12px;
+}
+
+.options .option_box div {
+    border-radius: 30px 30px 0 0 ;
+}
+
+@media (max-width: 760px) {
+    .options {
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: auto;
+    }
+}
+
+
+.options .option_box #top1 {
+    width: 100%;
+    height: 60%;
+    background-image: url("Images/pexels-diego-cancino-467067322-32757022.jpg");
+    background-size: 100%;
+    background-position: right -300px;
+    background-repeat: no-repeat;
+}
+
+#top2 {
+    width: 100%;
+    height: 60%;
+    background-image: url("Images/pexels-peep-this-photo-1766934996-31846709.jpg");
+    background-size: 100%;
+    background-position: right -100px;
+    background-repeat: no-repeat;
+    animation-delay: .5s;
+}
+
+#top3 {
+    width: 100%;
+    height: 60%;
+    background-image: url("Images/pexels-ionela-mat-268382825-19671382.jpg");
+    background-size: 100%;
+    background-position: right -250px;
+    background-repeat: no-repeat;
+    animation-delay: .9s;
+}
+.options .option_box img {
+    width: 100%;
+    
+}
+
+.bottom_page {
+    height: 100vh;
+    background-color: #E2E1CD;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.bottom_page section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bottom_page .left {
+    flex-direction: column;
+    text-align: left;
+    padding: 50px;
+}
+
+.bottom_page .left h1 {
+    font-size: 50px;
+}
+
+.bottom_page .right img {
+    width: 80%;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    padding: 60px 40px 20px 40px;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.footer_brand {
+    max-width: 300px;
+}
+
+.footer_brand img {
+    filter: invert(1) brightness(2);
+}
+
+.footer_brand p {
+    margin-top: 20px;
+    line-height: 26px;
+    color: rgb(190, 190, 190);
+}
+
+.footer_links,
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer_links h3,
+.footer_contact h3 {
+    margin-bottom: 10px;
+    color: var(--accent-color);
+}
+
+.footer_links a {
+    text-decoration: none;
+    color: rgb(210, 210, 210);
+    transition: 0.3s;
+}
+
+.footer_links a:hover {
+    color: var(--accent-color);
+}
+
+.footer_contact p {
+    color: rgb(190, 190, 190);
+}
+
+.footer_bottom {
+    border-top: 1px solid rgb(60, 60, 60);
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(150, 150, 150);
+}
+
+
+@media(max-width: 768px) {
+    .footer_container {
+        flex-direction: column;
+    }
+
+    .footer_brand {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 760px) {
+    
+
+    .text_description p {
+        width: 500px;
+        line-height: 30px;
+    }
+
+    .other_content {
+        height: auto;
+    }
+
+    .options {
+        flex-direction: column;
+        
+    }
+
+    .options .option_box {
+        width: 500px;
+        height: 400px;
+    }
+
+    .bottom_page {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: auto;
+    }
+
+    .bottom_page .left, .right {
+        position: relative;
+    }
+}
+
+@media (max-width: 1200px){
+    header {
+        background-image: none;
+    }
+}

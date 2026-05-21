@@ -382,7 +382,6 @@ main section .text img {
     color: #b0b0b0;
 }
 
-/* responsiveness */
 @media (max-width: 768px){
 
     .goals div {
