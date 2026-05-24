@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akt:wght@100..900&family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        
+        
+        <nav class="sidebar">
+            
+            <button class="functions">
+                <img src="svg/collapse.png" alt="expand panel">
+            </button>
+            <section class="logo"><img src="Icons/aecom.png" alt="AEcom">
+            </section>
+
+            <ul>
+                <a href="#"><li><img src="svg/dashboard.png"><p>Dashboard</p></li></a>
+                <a href="#"><li><img src="svg/user.png" ><p>User Profile</p></li></a>
+                <a href="#"><li><img src="svg/budget.png" alt=""><p>Finance</p></li></a>
+                <a href="#"><li><img src="svg/credit-card.png" alt=""><p>Payments</p></li></a>
+                <a href="#"><li><img src="svg/balance-sheet.png" alt=""><p>Balance</p></li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <button class="functions">
+                <img src="svg/enlarge.png" alt="expand panel">
+            </button>
+        <section class="top_section">
+            <aside class="head_content">
+                <span>Welcome Joseph 👋</span>
+                <h1>Dashboard</h1>
+            </aside>
+            
+
+            <aside class="user_tab">
+                <input type="text" class="search_bar">
+                <button class="search"><img src="svg/search.png"></button>
+                <button class="notifications">
+                    <img src="svg/bell.png"/>
+                </button>
+
+                <button class="profile">
+                    
+                </button>
+            </aside>
+        </section>
+
+        <section class="main_section">
+            <section class="stats">
+                <aside class="income">
+                    Lorem, ipsum dolor sit amet 
+                </aside>
+                <aside class="income_stats">
+
+                </aside>
+            </section> 
+            <section class="history">
+                    <section class="history_table">
+                        <h1>Transaction: </h1>
+                        <aside class="chart_container">
+                            <canvas id="myChart" width="100px"></canvas>
+                        <table>
+                        <tr>
+                            <th>S/N</th>
+                            <th>Date</th>
+                            <th>Amount spent</th>
+                            <th>Description</th>
+                            <th>Time</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>20-05-2026</td>
+                            <td>$2000</td>
+                            <td>Hospital bills</td>
+                            <td>12:23</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>21-05-2026</td>
+                            <td>$1630</td>
+                            <td>Electrical bills</td>
+                            <td>5:17</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>22-05-2026</td>
+                            <td>$982.12</td>
+                            <td>School fees</td>
+                            <td>16z;17</td>
+                        </tr>
+                    </table>
+                        </aside>
+                    
+                    </aside>
+                    
+                </section>
+            </section>
+            <section class="widget_section">
+
+            </section>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+:root {
+    --background-color: #fff;
+    --text-color: #111;
+    --accent-color: rgb(223, 145, 0);
+    --lighter-color: #E2E1CD;
+    --hover-color: rgb(196, 127, 0);
+    --secondary-text-color: rgb(86, 86, 86);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: none;
+    height: 100vh;
+}

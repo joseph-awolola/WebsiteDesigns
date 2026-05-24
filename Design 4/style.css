@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --gradient-background-color: #D2E4E6;
+    --background-color: #D2E4E6;
+    --background-color-2: #DBE9EA;
+    --text-color: rgb(9, 16, 19);
+    --text-color-2: rgb(0, 47, 67);
+    --foreground-color: #2C929D;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h1 {
+    color: var(--text-color-2);
+}
+
+body {
+    font-size: .8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    background-color: var(--background-color);
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+    background-image: linear-gradient(to bottom, var(--background-color), #40cede3f);
+    background-color: var(--background-color);
+    background-attachment: fixed;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+main span {
+    color: var(--text-color-2);
+}
+
+
+.top_section {
+    width: 100%;
+    height: 10%;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.head_content {
+    display: block;
+}
+
+.user_tab {
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+img {
+    width: 20px;
+}
+
+.search_bar {
+    background: none;
+    height: 30px;
+    width: 300px;
+    border: 1px solid #111;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.search_bar:focus {
+    outline: none;
+    font-size: .94rem;
+    display: none;
+}
+
+
+
+.user_tab .search, .notifications {
+    width: 30px;
+    height: 30px;
+    margin: 6px;
+    background: none;
+    border: none;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    margin: 6px;
+    border-radius: 50%;
+    background: revert;
+    background-image: url("Images/pexels-vincent-santamaria-194760512-37148308.jpg");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    border: 2px solid var(--foreground-color);
+}
+
+
+.top_section span {
+    font-size: 17px;
+    color: var(--text-color-2);
+}
+
+.top_section h1 {
+    font-size: 2.5rem;
+}
+
+.main_section {
+    height: 80%;
+    width: auto;
+    min-height: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats {
+    width: 97%;
+    height: 40%;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.stats .income, .income_stats {
+    min-height: 90%;
+    height: auto;
+    background-color: var(--background-color-2);
+    border-radius: 30px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.119);
+    padding: 20px;
+}
+header {
+    border-right: solid #111 1px;
+    width: 20%;
+    transition: width 0.4s ease-in-out; 
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.sidebar .logo{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    justify-content: left;
+}
+
+.logo img {
+    width: 100px;
+    padding: 30px 40px;
+    
+}
+
+.functions {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background: none;
+    border: none;
+    z-index: 1;
+    position: absolute;
+}
+
+.sidebar .functions {
+
+    right: 0;
+    top: 0;
+}
+
+header.minimized{
+    width: 5%;
+}
+
+.sidebar .functions:hover {
+    cursor: pointer;
+}
+
+
+.functions img {
+    width: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul a {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    width: 90%;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin: 5px;
+    height: 80px;
+    text-decoration: none;
+    color: var(--text-color);
+
+}
+
+nav ul a:hover {
+    background-color: var(--foreground-color);
+    background-image: radial-gradient(circle,#93e2eb 0%, #0087a2 100%);
+
+    
+}
+
+ul a li {
+    display: flex;
+    align-items: left;
+}
+
+.hideElement {
+    display: none;
+}
+
+
+ul a li img {
+    width: 20px;
+    padding: 0 10px;
+}
+
+main .functions {
+    display: none;
+}
+
+.history {
+    min-width: 100%;    
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.history_table {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    height: auto;
+    min-height: 200px;
+    background-color: var(--background-color-2);
+    border-radius: 20px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.119);
+}
+
+
+
+.income, .income_stats, .history_table {
+    border: 1px solid #fff;
+}
+
+.chart_container {
+    width: auto;
+    height: 250px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+#myChart{
+    width: inherit;
+
+}
+
+.history_table h1 {
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+}
+
+.history table {
+    width: 60%;
+    height: auto;
+    padding: 30px;
+}
+
+.widget_section {
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+
+@media (max-width: 1000px) {
+    header {
+        display: none;
+    }
+
+    main .functions {
+        display: block;
+    }   
+}

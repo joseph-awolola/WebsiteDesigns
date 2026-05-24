@@ -349,6 +349,7 @@ h2 {
 .bottom_page .left {
     flex-direction: column;
     text-align: left;
+    justify-content: end;
     padding: 50px;
 }
 
