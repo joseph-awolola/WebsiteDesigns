@@ -8,7 +8,7 @@
     --background-color: #D2E4E6;
     --background-color-2: #DBE9EA;
     --text-color: rgb(9, 16, 19);
-    --text-color-2: rgb(0, 47, 67);
+    --text-color-2: rgb(0, 78, 111);
     --foreground-color: #2C929D;
     font-size: 20px;
 }
@@ -41,7 +41,8 @@ body {
 
 main {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
 }
 
 main span {
@@ -59,15 +60,21 @@ main span {
 
 .head_content {
     display: block;
+    animation: slideDown .6s ease-out;
+    animation-fill-mode: forwards;
 }
 
 .user_tab {
     position: absolute;
+    top: 20px;
     right: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    opacity: 0;
+    animation: slideDown .6s ease-out;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
 }
 
 img {
@@ -76,6 +83,7 @@ img {
 
 .search_bar {
     background: none;
+    display: none;
     height: 30px;
     width: 300px;
     border: 1px solid #111;
@@ -105,7 +113,7 @@ img {
     margin: 6px;
     border-radius: 50%;
     background: revert;
-    background-image: url("Images/pexels-vincent-santamaria-194760512-37148308.jpg");
+    background-image: url("../Images/pexels-vincent-santamaria-194760512-37148308.jpg");
     background-size: 30px;
     background-repeat: no-repeat;
     border: 2px solid var(--foreground-color);
@@ -133,6 +141,7 @@ img {
 }
 
 .stats {
+    max-width: 97%;
     width: 97%;
     height: 40%;
     display: grid;
@@ -144,9 +153,22 @@ img {
     
 }
 
-.stats .income, .income_stats {
-    min-height: 90%;
-    height: auto;
+.income {
+    opacity: 0;
+    animation: slideUp .4s ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: .1s;
+}
+
+.income_stats {
+    opacity: 0;
+    animation: slideUp .4s ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: .3s;
+}
+
+ .income, .income_stats {
+    height: 70%;
     background-color: var(--background-color-2);
     border-radius: 30px;
     box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.119);
@@ -156,6 +178,7 @@ header {
     border-right: solid #111 1px;
     width: 20%;
     transition: width 0.4s ease-in-out; 
+    overflow: hidden;
 }
 
 nav {
@@ -235,12 +258,11 @@ nav ul a {
     height: 80px;
     text-decoration: none;
     color: var(--text-color);
-
 }
 
 nav ul a:hover {
     background-color: var(--foreground-color);
-    background-image: radial-gradient(circle,#93e2eb 0%, #0087a2 100%);
+    background-image: var(--text-color-2)
 
     
 }
@@ -265,20 +287,25 @@ main .functions {
 }
 
 .history {
-    min-width: 100%;    
-    height: fit-content;
+    width: 100%;    
+    height: auto;
     display: flex;
     flex-direction: row;
-    margin: 20px;
     padding: 10px;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .history_table {
+    flex-direction: column; /* Stacks children vertically on smaller screens */
+  }
 }
 
 .history_table {
     display: flex;
     flex-direction: column;
     width: 97%;
-    height: auto;
+    height: max-content;
     min-height: 200px;
     background-color: var(--background-color-2);
     border-radius: 20px;
@@ -292,6 +319,8 @@ main .functions {
 }
 
 .chart_container {
+    display: flex;
+    flex-wrap: wrap;
     width: auto;
     height: 250px;
     margin: 40px;
@@ -314,14 +343,21 @@ main .functions {
     width: 60%;
     height: auto;
     padding: 30px;
+    border-collapse: collapse; 
+    border-style: hidden; 
+}
+
+table td, table th {
+  /* Defines the internal grid lines */
+  border: 1px solid black;
+  padding: 0 8px;
 }
 
 .widget_section {
+    background-color: blue;
     width: 100%;
     height: 100vh;
-    background-color: blue;
 }
-
 @media (max-width: 1000px) {
     header {
         display: none;
@@ -330,4 +366,99 @@ main .functions {
     main .functions {
         display: block;
     }   
+}
+
+.dropdown_profile {
+    display: flex;
+    justify-content: center;
+}
+.dropdown_content {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 5.5rem;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+    top: 50px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.dropdown_content a {
+    width: 100%;
+    height: fit-content;
+    text-decoration: none;
+    color: var(--text-color);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown_content a:hover {
+    background-color: #dedede;
+}
+
+.show {
+    display: flex;
+}
+
+.view_all {
+    background: none;
+    border: none;
+    color: var(--text-color-2);
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.view_all {
+    width: fit-content;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.content h1 {
+    color: black;
+    font-size: 3rem;
+}
+
+.content h1 span {
+    font-size: 1.3rem;
+    color: black;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }

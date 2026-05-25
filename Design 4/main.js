@@ -3,6 +3,8 @@ const navBar = document.querySelector("header");
 const navText = document.querySelectorAll("ul a li p")
 const logo = document.querySelector(".logo img")
 const collapseBtn = document.querySelector(".functions img")
+const profileBtn = document.querySelector(".profile");
+const dropdownContent = document.querySelector(".dropdown_content");
 
 let isOpen = true;
 minimizeBtn.addEventListener("click", () => {
@@ -14,6 +16,10 @@ minimizeBtn.addEventListener("click", () => {
     });
     isOpen = !isOpen
     collapseBtn.src = isOpen ? "svg/collapse.png" : "svg/enlarge.png"
+})
+
+profileBtn.addEventListener("click", () => {
+    dropdownContent.classList.toggle("show")
 })
 
 // Get the context of the canvas element we want to select
