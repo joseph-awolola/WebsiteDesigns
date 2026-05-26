@@ -44,4 +44,101 @@ profileBtn.addEventListener("click", () => {
                 
             }]
         },
+        options: {
+        maintainAspectRatio: false,  // ADD THIS
+        responsive: false,           // ADD THIS
+        }
     });
+
+const progressChart = document.querySelectorAll(".progressChart")
+
+progressChart.forEach(e => {
+    const pChart = new Chart(e, {
+    type: 'bar',
+    data: {
+        labels: [''],
+        datasets: [
+            {
+                label: 'Completed',
+                data: [60],
+                backgroundColor: '#2C929D',
+                borderWidth: 0,
+                borderRadius: 4,
+            },
+            {
+                label: 'Remaining',
+                data: [40],
+                backgroundColor: '#D2E4E6',
+                borderWidth: 0,
+                borderRadius: 4,
+            }
+        ]
+    },
+    options: {
+        indexAxis: 'y',           // horizontal
+        responsive: false,
+        maintainAspectRatio: false,
+        scales: {
+            x: {
+                stacked: true,    // THIS stacks them on one line
+                max: 100,
+                display: false    // hides the x axis numbers
+            },
+            y: {
+                stacked: true,    // THIS too
+                display: false    // hides the y axis label
+            }
+        },
+        plugins: {
+            legend: {
+                display: true,
+                position: 'bottom'
+            }
+        }
+    }
+})});
+
+// const pChart = new Chart(progressChart, {
+//     type: 'bar',
+//     data: {
+//         labels: [''],
+//         datasets: [
+//             {
+//                 label: 'Completed',
+//                 data: [60],
+//                 backgroundColor: '#2C929D',
+//                 borderWidth: 0,
+//                 borderRadius: 4,
+//             },
+//             {
+//                 label: 'Remaining',
+//                 data: [40],
+//                 backgroundColor: '#D2E4E6',
+//                 borderWidth: 0,
+//                 borderRadius: 4,
+//             }
+//         ]
+//     },
+//     options: {
+//         indexAxis: 'y',           // horizontal
+//         responsive: false,
+//         maintainAspectRatio: false,
+//         scales: {
+//             x: {
+//                 stacked: true,    // THIS stacks them on one line
+//                 max: 100,
+//                 display: false    // hides the x axis numbers
+//             },
+//             y: {
+//                 stacked: true,    // THIS too
+//                 display: false    // hides the y axis label
+//             }
+//         },
+//         plugins: {
+//             legend: {
+//                 display: true,
+//                 position: 'bottom'
+//             }
+//         }
+//     }
+// });
