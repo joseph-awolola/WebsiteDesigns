@@ -35,9 +35,10 @@ body {
 
     background-image: linear-gradient(to bottom, var(--background-color), #40cede3f);
     background-color: var(--background-color);
-    background-attachment: fixed;
-    height: auto;
+    /* background-attachment: fixed; */
+    height: min-content;
     min-height: 100vh;
+    
 }
 
 main {
@@ -76,7 +77,7 @@ main span {
     animation: slideDown .6s ease-out;
     animation-delay: .5s;
     animation-fill-mode: forwards;
-    z-index: 9999;
+    z-index: 2;
 }
 
 img {
@@ -133,8 +134,7 @@ img {
 
 .main_section {
     width: auto;
-    min-height: 100%;
-    height: 100%;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,6 +167,7 @@ img {
     animation: slideUp .4s ease-out;
     animation-fill-mode: forwards;
     animation-delay: .3s;
+    overflow: hidden;
 }
 
  .income, .income_stats {
@@ -181,6 +182,7 @@ header {
     border-right: solid #111 1px;
     width: 20%;
     min-height: 100vh;
+    height: auto;
     transition: width 0.2s ease-in-out; 
     overflow: hidden;
 }
@@ -264,11 +266,8 @@ nav ul a {
     color: var(--text-color);
 }
 
-nav ul a:hover {
-    background-color: var(--foreground-color);
-    background-image: var(--text-color-2)
-
-    
+.active {
+    background-color: rgba(75, 192, 192, 1);
 }
 
 ul a li {
@@ -321,6 +320,9 @@ main .functions {
     padding-bottom: 20px;
 }
 
+.history_table .top {
+    margin: 20px;
+}
 
 
 .income, .income_stats, .history_table {
@@ -356,14 +358,20 @@ main .functions {
     border-style: hidden; 
     flex: 1 1 300px;
     overflow-x: auto;
-    display: block;
+    display: table;
     
 }
 
 .history table td, table th {
   /* Defines the internal grid lines */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 0 8px;
+  
+}
+
+.history table th {
+    border: none;
+    border-bottom: 1px solid black;
 }
 
 .widget_section {
@@ -372,7 +380,20 @@ main .functions {
 }
 @media (max-width: 1000px) {
     header {
-        display: none;
+        width: 0px;
+        overflow: hidden;
+    }
+
+    header nav {
+        /* position: absolute; */
+    }
+
+    .sticky_nav {
+        position: absolute;
+        width: 400px;
+        z-index: 3;
+        background-color: inherit;
+        display: flex;
     }
 
     main .functions {
@@ -428,6 +449,8 @@ main .functions {
     display: flex;
     flex-direction: row;
 }
+
+
 
 .view_all {
     width: fit-content;

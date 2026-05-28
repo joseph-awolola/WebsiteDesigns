@@ -5,6 +5,7 @@ const logo = document.querySelector(".logo img")
 const collapseBtn = document.querySelector(".functions img")
 const profileBtn = document.querySelector(".profile");
 const dropdownContent = document.querySelector(".dropdown_content");
+const sidebarEnlarge = document.querySelector("#enlarge_sidebar")
 
 let isOpen = true;
 minimizeBtn.addEventListener("click", () => {
@@ -31,14 +32,13 @@ profileBtn.addEventListener("click", () => {
         data: {
             datasets: [{
                 label: 'Income',
-                data: [12, 19, 3, 5, 2, 3], // Data points for the chart
+                data: [12, 19, 3, 5, 3], // Data points for the chart
                 backgroundColor: [
-                    'rgba(255, 99, 132, 1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
+                    '#DBE9EA',
+                    'rgb(0, 78, 111)',
+                    '#2C929D',
                     'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)',
-                    'rgba(255, 159, 64, 1)'
+                    '#D2E4E6'
                 ],
                 borderWidth: 1,
                 
@@ -142,3 +142,8 @@ progressChart.forEach(e => {
 //         }
 //     }
 // });
+
+sidebarEnlarge.addEventListener("click", () => {
+    navBar.classList.toggle("sticky_nav")
+    
+})
