@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="../style/style.css">
     <script src="../JS/main.js" defer></script>
     <script src="https://kit.fontawesome.com/1fd3eeeae1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akt:wght@100..900&family=Aldrich&family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -17,14 +23,15 @@
             
                 </div>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact Us</li>
-                <li>Details</li>
-                <li>Wikki</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Details</a></li>
+                <li><a href="#">Wikki</a></li>
             </ul>
 
             <button class="sign_up">Sign Up</button>
+            <button class="expand_nav"><i class="fa-solid fa-bars"></i></button>
         </nav>
     </header>
     <main>
@@ -38,7 +45,7 @@
                     <span style="animation-delay: .3s;">automations</span>
                     <span style="animation-delay: .8s;">smooth</span>
                     <span style="animation-delay: 1s;">as</span>
-                    <span style="animation-delay: 1.2s;" id="colored_head">butter</span>
+                    <span style="animation-delay: 1.2s;" id="colored_head" class="grad_text">butter.</span>
                 </h1>
 
                 <div class="btn_sec">
@@ -52,18 +59,68 @@
             <div class="content-box">
                 <div style="animation-delay: .3s;">
                     <i class="fa-solid fa-code"></i>
+                    <p>Kickstart new modules, APIs, or UI components in seconds. Describe what you need, and watch the tool output production-ready, framework-specific code.</p>
+                    
                 </div>
                 <div style="animation-delay: .4s;">
                     <i class="fa-solid fa-server"></i>
+                    <p>
+                        Uses machine learning to anticipate hardware failures and resource bottlenecks before they impact your users. Automatically applies critical security updates and OS patches.
+                    </p>
                 </div>
                 <div style="animation-delay: .5s;">
-                    <i class="fa-solid fa-circle-nodes"></i>
+                    <i class="fa-solid fa-circle-nodes" ></i>
+                    <p>
+                        Visually bridge different apps, databases, and APIs without writing complex integration scripts. Instantly see how data flows through your entire ecosystem.
+                    </p>
                 </div>
             </div>
         </section>
+
+        <section class="chart_section">
+
+        <div class="line-chart">
+            <div class="lineGrap_container">
+                <canvas id="lineGraph" width="600" height="400"></canvas>
+
+            </div>
+            <div class="explanation_line">
+                
+                <div class="explanation"></div>
+                <div class="explanation"></div>
+            </div>
+            
+        </div>
+
+        </section>
+
+        <section class="about">
+            <aside class="left">
+                <h1>What does this tool <span class="grad_text">do?</span></h1>
+
+                <p>
+                    making your automated workflows feel effortless, invisible, and reliable — the kind where things just happen without friction, errors, or awkward pauses.
+                </p>
+
+                <ul>
+                    <li><i class="fa-solid fa-code-merge"></i>Seamless Triggers
+Automations that fire instantly and accurately — no delays, no missed events.</li>
+                    <li><i class="fa-solid fa-chart-diagram"></i>Clean Data Flow
+Data moves between tools and systems without needing manual cleanup. </li>
+                    <li><i class="fa-solid fa-bug" style="color: rgb(224, 34, 0)"></i>
+                        Error Handling That Doesn't Break the Chain
+When something goes wrong, the automation recovers gracefully </li>
+                    
+                </ul>
+            </aside>
+            <aside class="right">
+
+            </aside>
+        </section>
+        
     </main>
     <footer>
-
+ 
     </footer>
 </body>
 </html>
