@@ -34,12 +34,23 @@ const appear = new IntersectionObserver((entries) => {
   });
 }, { threshold: .1 }); // 0.1 = trigger when 10% of element is on screen
 
-appear.observe(document.querySelector(".timeline-section"));
+document.querySelectorAll(".explanation").forEach(el => slideLeft.observe(el));
+// appear.observe(document.querySelector(".timeline-section"));
 document.querySelectorAll('.about ul li').forEach(el => slideLeft.observe(el));
 
 document.querySelectorAll('.content-box div').forEach(el => slideUp.observe(el));
+// slideUp.observe(document.querySelector("#metrics"));
 slideUp.observe(document.querySelector(".timeline_text h2"));
 slideUp.observe(document.querySelector(".timeline_text p"));
+
+const expandBtn = document.querySelectorAll('.expand');
+
+expandBtn.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const parent = btn.parentElement;
+    parent.classList.toggle('expanded');
+})});
+
 
 
 slideUp.observe(document.querySelector(".lineGrap_container canvas"));
@@ -210,3 +221,52 @@ const tlSteps = [
 
     tlBuild();
     setTimeout(tlStart, 600);
+
+
+// count increment animation
+const el = document.querySelector('.count');
+const target = parseInt(el.dataset.target);
+let current = 0;
+
+const observer = new IntersectionObserver(([entry]) => {
+  if (entry.isIntersecting) {
+    animate();
+    observer.disconnect();
+  }
+});
+
+observer.observe(el);
+
+function animate() {
+  current += (target - current) * 0.05;
+  if (target - current < 0.5) {
+    el.textContent = target.toLocaleString();
+    return;
+  }
+  el.textContent = Math.round(current).toLocaleString();
+  requestAnimationFrame(animate);
+}
+
+document.querySelectorAll('.count').forEach(el => {
+  const target = parseInt(el.dataset.target);
+  let current = 0;
+
+  const observer = new IntersectionObserver(([entry]) => {
+    if (entry.isIntersecting) {
+      animate();
+      observer.disconnect();
+    }
+  });
+
+  observer.observe(el);
+
+  function animate() {
+    current += (target - current) * 0.05;
+    if (target - current < 0.5) {
+      el.textContent = target.toLocaleString();
+      return;
+    }
+    el.textContent = Math.round(current).toLocaleString();
+    requestAnimationFrame(animate);
+  }
+});

@@ -24,10 +24,10 @@
                 </div>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#about_section">About</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Details</a></li>
-                <li><a href="#">FAQ's</a></li>
+                <li><a href="#faq_page">FAQ's</a></li>
             </ul>
 
             <button class="sign_up">Sign Up</button>
@@ -41,11 +41,12 @@
             </video>
             <div class="text">
                 <h1>
-                    <span style="animation-delay: .1s;">Make</span>
-                    <span style="animation-delay: .3s;">automations</span>
-                    <span style="animation-delay: .8s;">smooth</span>
+                    <span style="animation-delay: .1s;">Make automations</span>
+
+                    <span style="animation-delay: .5s;">smooth as <span class="grad_text">butter</span></span>
+                    <!-- <span style="animation-delay: .8s;">smooth</span>
                     <span style="animation-delay: 1s;">as</span>
-                    <span style="animation-delay: 1.2s;" id="colored_head" class="grad_text">butter.</span>
+                    <span style="animation-delay: 1.2s;" id="colored_head" class="grad_text">butter.</span> --> 
                 </h1>
 
                 <div class="btn_sec">
@@ -78,6 +79,7 @@
         </section>
 
         <section class="chart_section">
+                <h1 id="#metrics">Our Metrics</h1>
 
         <div class="line-chart">
             <div class="lineGrap_container">
@@ -85,9 +87,22 @@
 
             </div>
             <div class="explanation_line">
-                
-                <div class="explanation"></div>
-                <div class="explanation"></div>
+                <div class="explanation">
+                    <span class="increase">
+                    <span class="count" data-target="97">0</span>%
+
+                    </span>
+
+                    <p>accuracy</p>
+                </div>
+                <div class="explanation">
+                    <span class="increase">
+                    <span class="count" data-target="340">0</span>ms
+
+                    </span>
+
+                    <p>average response time</p>
+                </div>
             </div>
             
         </div>
@@ -114,25 +129,21 @@ When something goes wrong, the automation recovers gracefully </li>
                 </ul>
             </aside>
             <aside class="right">
-                <h1>What we've affected</h1>
-
-                <p>
-                    making your automated workflows feel effortless, invisible, and reliable — the kind where things just happen without friction, errors, or awkward pauses.
-                </p>
+                <h1>What we've delivered: </h1>
 
                 <ul>
-                    <li><i class="fa-solid fa-code-merge" style="color: #194d44; font-size: 1.2em;"></i>Seamless Triggers
-Automations that fire instantly and accurately — no delays, no missed events.</li>
-                    <li><i class="fa-solid fa-chart-diagram" style="color: #194d44; font-size: 1.2em;"></i>Clean Data Flow
-Data moves between tools and systems without needing manual cleanup. </li>
-                    <li><i class="fa-solid fa-bug" style="color: #194d44; font-size: 1.2em;"></i>
-                        Error Handling That Doesn't Break the Chain
-When something goes wrong, the automation recovers gracefully </li>
-                    
+                    <li><i class="fa-solid fa-check" style="color: #194d44; font-size: 1.2em;"></i>10M+ automations run without failure this quarter</li>
+                    <li><i class="fa-solid fa-bolt-lightning" style="color: #194d44; font-size: 1.2em;"></i>avg. 340ms trigger-to-action response time</li>
+                    <li><i class="fa-solid fa-link" style="color: #194d44; font-size: 1.2em;"></i>
+                    120+ integrations across popular tools and APIs
+                    </li>
+                    <li><i class="fa-solid fa-chart-area" style="color: #194d44; font-size: 1.2em;"></i>
+                    62% reduction in manual workflow errors reported by users
+                    </li>
                 </ul>   
             </aside>
         </section>
-        <section class="timeline">
+        <section class="timeline" id="about_section">
             <section class="timeline-section">
                 <div class="timeline_text">
                     <h2>How it works</h2>
@@ -149,26 +160,116 @@ When something goes wrong, the automation recovers gracefully </li>
   </section>
         </section>
 
-        <section class="faq">
+        <section class="faq" id="faq_page">
             <h1>Frequently Asked Questions</h1>
             <div class="faq_box">
                 <div>
-                    <p>How do I get started?</p>
-                    <i class="fa-solid fa-plus"></i>
+                        <p>How do I get started?</p>
+                        <button class="expand">
+                            <i class="fa-solid fa-plus"></i>
+
+                        </button>                    
+                    <section class="answer">
+
+                    </section>
                 </div>
                 <div>
-                    <p>Is there a free trial?</p>
-                    <i class="fa-solid fa-plus"></i>
+                        <p>Is there a free trial?</p>
+                        <button class="expand">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    
+
+                    <section class="answer">
+                        
+                    </section>
                 </div>
                 <div>
                     <p>What integrations are supported?</p>
-                    <i class="fa-solid fa-plus"></i>
+                    <button class="expand">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+                <div>
+                    <p>What happens if an automation fails?</p>
+                    <button class="expand">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+                <div>
+                    <p>Is my data secure? </p>
+                    <button class="expand">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+                <div>
+                    <p>Can I build complex multi-step workflows?</p>
+                    <button class="expand">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
- 
+
+        <footer>
+        <div class="ft-top">
+            <div class="ft-brand">
+            <h1 class="logo-text">Auto<span class="grad_text">Scrub</span></h1>
+            <p>Making your automated workflows feel effortless, invisible, and reliable.</p>
+            <div class="ft-newsletter">
+                <input type="email" placeholder="Your email address">
+                <button>Subscribe</button>
+            </div>
+            </div>
+
+            <div class="ft-col">
+            <h4>Product</h4>
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Integrations</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Changelog</a></li>
+            </ul>
+            </div>
+
+            <div class="ft-col">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            </div>
+
+            <div class="ft-col">
+            <h4>Resources</h4>
+            <ul>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">API Reference</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="ft-bottom">
+            <span class="ft-copy">© 2026 AutoScrub. All rights reserved.</span>
+            <div class="ft-socials">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            </div>
+            <div class="ft-legal">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms of service</a>
+            </div>
+        </div>
     </footer>
+    </main>
+
+
+    
 </body>
 </html>
