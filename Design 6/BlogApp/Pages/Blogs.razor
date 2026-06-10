@@ -1,0 +1,71 @@
+@using System.Runtime.InteropServices
+@using BlogApp.Model
+
+@inject NavigationManager navigationManager
+
+<div class="card" @onclick="PrintHello">
+    <div class="card-top">
+        <img src=""C:\Users\user\Downloads\6a9d17646d9c55d128745269e4e37f0c.jpg">
+        <p>John Doe</p>
+    </div>
+    <div class="card-body">
+        <p class="card-text">
+            @ShownText 
+            @if (@post.Length > MaxPostLength)
+            {
+                <button class="read-more" 
+            @onclick="ToggleText">@buttonString</button>
+            }
+                @* @if (@media?._url != "")
+                {
+                    <div class="media">
+                    <img src="@media?._url" alt="">
+                </div>
+                } *@
+                
+            
+        </p>
+    </div>
+</div>
+
+@code {
+
+    public static MediaURL? media {get; set; } = new MediaURL ("https://i.pinimg.com/736x/44/df/8a/44df8a8008521b73d41ea3414e9f32b5.jpg");
+    public static string post {get; set; } = "Hello my name is, through it in yuor day with overcomplicated every little thing that you, do, hello and goodbyeHello my name is, through it in yuor day with overcomplicated every little thing that you, do, hello and goodbyeHello my name is, through it in yuor day with overcomplicated every little thing that you, do, hello and goodbyeHello my name is, through it in yuor day with overcomplicated every little thing that you, do, hello and goodbyeHello my name is, through it in yuor day with overcomplicated every little thing that you, do, hello and goodbyeHello my name is, through it in yuor day with overcomplicated every little thing that you, do, hello and goodbyeHello my name is, through it in yuor day with overcomplicated every little thing that you, do, hello and goodbyeHello my name is, through it in yuor day with overcomplicated every little thing that you, do, hello and goodbyeHello my name is, through it in yuor day with overcomplicated every little thing that you, do, hello and goodbye";
+
+    public static string ShownText { get; set; } = string.Empty;
+    public string authorName { get; set; } = "Joseph";
+    public const int MaxPostLength = 400;
+    public string buttonString { get; set; } = "..ReadMore";
+    public bool expanded { get; set; } = false;
+
+    public void PrintHello()
+    {
+        navigationManager.NavigateTo("/PostPage");
+    }
+
+    protected override void OnInitialized()
+    {
+        if (post.Length > MaxPostLength)
+        {
+            Console.WriteLine("Limit exceeded");
+            ShownText = post.Substring(0, 200);
+        }
+    }
+
+    public void ToggleText()
+    {
+        if (expanded)
+        {
+            buttonString = "..ReadMore";
+            expanded = false;
+            ShownText = post.Substring(0, 200);
+        }
+        else 
+        {
+            buttonString = "..ReadLess";
+            expanded = true;
+            ShownText = post;
+        }
+    }
+}

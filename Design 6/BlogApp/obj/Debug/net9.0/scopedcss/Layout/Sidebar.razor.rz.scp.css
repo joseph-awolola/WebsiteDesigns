@@ -1,0 +1,139 @@
+:root[b-3f1xfxj9il] {
+    --background-color: #FFFFFF;
+    --foreground-color: #00171F;
+    --accent-color: #00A7E1;
+    --accent-color-2: #003459;
+    --accent-color-3: #007EA7;
+    
+
+}
+
+html[b-3f1xfxj9il] {
+    scroll-behavior: smooth;
+}
+
+body[b-3f1xfxj9il] {
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+
+}
+
+.sidebar_section[b-3f1xfxj9il] {
+    width: 17%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.sidebar_section ul[b-3f1xfxj9il] {
+    list-style-type: none;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sidebar_section ul li[b-3f1xfxj9il] {
+    margin: 5px 0;
+    background: transparent;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    padding: 0 30px;
+    text-align: left;
+    align-items: center;
+}
+
+.sidebar_section ul li:hover[b-3f1xfxj9il] {
+    background-color: BLACK;
+    color: #fff;
+}
+.sidebar_section ul a[b-3f1xfxj9il] {
+    text-decoration: none;
+    color: var(--foreground-color);
+}
+
+.user_func[b-3f1xfxj9il] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul button[b-3f1xfxj9il] {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: black;
+
+    color: #fff;
+    border: none;
+
+}
+
+ul a[b-3f1xfxj9il] {
+    width: 100%;
+}
+
+.user_func div[b-3f1xfxj9il] {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+}
+
+.user_func div button[b-3f1xfxj9il] {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    border-radius: 10px;
+    color: black;
+}
+
+ul a li span[b-3f1xfxj9il] {
+    padding: 0 10px;
+}
+
+.user_func div button:hover[b-3f1xfxj9il] 
+{
+    background-color: rgba(0, 0, 0, 0.049);
+}   
+
+@media (max-width: 700px) {
+    .sidebar_section[b-3f1xfxj9il] {
+        width: 90px;
+    }
+
+
+    ul a li[b-3f1xfxj9il] {
+        font-size: 1.5rem;
+    }
+
+    ul a li span[b-3f1xfxj9il]{
+        display: none;
+    }
+
+    .user_func div[b-3f1xfxj9il] {
+        flex-direction: column;
+    }
+
+    .sidebar_section ul li[b-3f1xfxj9il]{
+        justify-content: center;
+
+    }
+}
