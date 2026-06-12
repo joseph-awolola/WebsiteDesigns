@@ -16,14 +16,22 @@
                 <button class="read-more" 
             @onclick="ToggleText">@buttonString</button>
             }
-                @* @if (@media?._url != "")
-                {
-                    <div class="media">
-                    <img src="@media?._url" alt="">
-                </div>
-                } *@
+
+            @if (@media?._url != "")
+            {
+                <div class="media">
+                <img src="@media?._url" alt="">
+            </div>
+            }
                 
-            
+            <div class="reactions">
+                <button id="like"><i class="fa-regular fa-heart"></i></button>
+                <button id="thumbs-down"><i class="fa-regular fa-thumbs-down"></i></button>
+                <button id="comment"><i class="fa-regular fa-comment"></i></button>
+                <button id="views"><i class="fa-regular fa-eye"></i></button>
+                <button id="report"><i class="fa-solid fa-triangle-exclamation"></i></button>
+                
+            </div>
         </p>
     </div>
 </div>
@@ -36,7 +44,7 @@
     public static string ShownText { get; set; } = string.Empty;
     public string authorName { get; set; } = "Joseph";
     public const int MaxPostLength = 400;
-    public string buttonString { get; set; } = "..ReadMore";
+    public string buttonString { get; set; } = "...ReadMore";
     public bool expanded { get; set; } = false;
 
     public void PrintHello()
@@ -63,7 +71,7 @@
         }
         else 
         {
-            buttonString = "..ReadLess";
+            buttonString = " ...ReadLess";
             expanded = true;
             ShownText = post;
         }

@@ -23,16 +23,19 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;    
     box-sizing: border-box;
     position: relative;
     top: 0;
     left: 0;
     overflow: hidden;
+    background-color: #1A1A2E ;
+    padding: 20px 0;
 }
 
 .sidebar_section ul {
+    position: relative;
     list-style-type: none;
     width: 100%;
     height: auto;
@@ -45,22 +48,27 @@ body {
     
 }
 
+#title {
+    font-size: 30px;
+}
+
 .sidebar_section ul li {
     margin: 5px 0;
     background: transparent;
     width: 100%;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     justify-content: left;
     padding: 0 30px;
     text-align: left;
     align-items: center;
+    color: #94A3B8;
 }
 
 .sidebar_section ul li:hover {
-    background-color: BLACK;
-    color: #fff;
+    background-color: #134076 ;
+    color: #94A3B8;
 }
 .sidebar_section ul a {
     text-decoration: none;
@@ -78,8 +86,9 @@ ul button {
     width: 100%;
     height: 60px;
     border-radius: 20px;
-    background-color: black;
-
+    background-color: #3B82F6 ;
+    text-align: left;
+    padding: 0 30px;
     color: #fff;
     border: none;
 
@@ -102,7 +111,7 @@ ul a {
     border: none;
     background: transparent;
     border-radius: 10px;
-    color: black;
+    color: #94A3B8;
 }
 
 ul a li span {
@@ -111,8 +120,15 @@ ul a li span {
 
 .user_func div button:hover 
 {
-    background-color: rgba(0, 0, 0, 0.049);
+    background-color: #134076 ;
 }   
+
+@media (max-width: 879px) {
+    ul li {
+       padding: 0;
+        
+    }
+}
 
 @media (max-width: 700px) {
     .sidebar_section {

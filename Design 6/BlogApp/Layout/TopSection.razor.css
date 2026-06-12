@@ -1,0 +1,44 @@
+.top_section {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: absolute;
+    z-index: 1;
+    background-color: #1a1a2ede; 
+    backdrop-filter: blur(30px); 
+    color: #E2E8F0;  
+    border: none;
+}
+
+.top_section ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.top_section ul li {
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.top_section ul li:hover{
+    font-weight: 700;
+}
+
+@media (max-width: 700px) {
+
+    .top_section ul {
+        display: none;
+    }
+}

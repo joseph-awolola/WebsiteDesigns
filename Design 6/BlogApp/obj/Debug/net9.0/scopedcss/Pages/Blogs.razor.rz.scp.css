@@ -3,11 +3,17 @@
     height: auto;
     height: auto;
     min-height: 200px;
-    /* max-height: 300px; */
     margin: 20px;   
     padding: 40px 30px;
     font-size: 1.5rem;
     box-sizing: border-box;
+    background-color: #16213E;
+    color: #94A3B8;
+    border: .5px solid #9a9a9a68;
+}
+
+.card:active[b-5v5rdy4c5m] {
+    background-color: #16213ebf;
 }
 
 .card-top[b-5v5rdy4c5m] {
@@ -27,7 +33,7 @@
 .read-more[b-5v5rdy4c5m] {
     background: none;
     border: none;
-    color: gray;
+    color: #64748B;
 }
 
 .read-more:hover[b-5v5rdy4c5m] {
@@ -35,10 +41,44 @@
 }
 
 .media[b-5v5rdy4c5m] {
-    width: 70%;
-    height: 300px;
+    width: fit-content;
+    max-width: 600px;
+    max-height: 600px;
+    background-color: blue;
     border-radius: 20px;
     overflow: hidden;
+    justify-self: center;
 }
+
+
 .media img[b-5v5rdy4c5m] {
+    max-height: 600px;  
+}
+
+.reactions[b-5v5rdy4c5m] {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 20px;
+}
+
+.reactions button[b-5v5rdy4c5m] {
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.reactions button:hover[b-5v5rdy4c5m] {
+    background-color: #7e7e7e1c;
 }

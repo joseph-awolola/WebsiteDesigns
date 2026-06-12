@@ -1,0 +1,8 @@
+.media-section {
+    background-color: #1a1a2e;
+    width: 60%;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    display: grid;
+}

@@ -1,15 +1,7 @@
 @page "/feed"
 
 <div class="blog-container">
-    <div class="top_section">
-        <h1>@Title</h1>
-        <ul class="blog-filter">
-            <li>Recent</li>
-            <li>Friends</li>
-            <li>Followers</li>
-        </ul>
-    </div>
-        <hr />
+    <TopSection Title="Feed"/>
 
     <div class="blog-section">
         <Blogs/>
@@ -18,8 +10,3 @@
     </div>
        
 </div>
-
-@code {
-    [Parameter]
-    public string Title {get; set; } = "Feed";
-}

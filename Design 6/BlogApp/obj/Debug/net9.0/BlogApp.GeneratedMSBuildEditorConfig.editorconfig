@@ -36,6 +36,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnJvbnRQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/user/OneDrive/Desktop/Apps and files folder/Coding/Microsoft Course/PersonalProject/Test site 1/Design 6/BlogApp/Pages/MainPages/FrontPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpblBhZ2VzXEZyb250UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/OneDrive/Desktop/Apps and files folder/Coding/Microsoft Course/PersonalProject/Test site 1/Design 6/BlogApp/Pages/MainPages/MediaPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpblBhZ2VzXE1lZGlhUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/OneDrive/Desktop/Apps and files folder/Coding/Microsoft Course/PersonalProject/Test site 1/Design 6/BlogApp/Pages/Messages/MessageSection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzc2FnZXNcTWVzc2FnZVNlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/user/OneDrive/Desktop/Apps and files folder/Coding/Microsoft Course/PersonalProject/Test site 1/Design 6/BlogApp/Pages/PostPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdFBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope = b-hw7oc9q019
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFNpZGViYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3f1xfxj9il
 
+[C:/Users/user/OneDrive/Desktop/Apps and files folder/Coding/Microsoft Course/PersonalProject/Test site 1/Design 6/BlogApp/Layout/TopSection.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFRvcFNlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-y3a2mhd8vc
+
 [C:/Users/user/OneDrive/Desktop/Apps and files folder/Coding/Microsoft Course/PersonalProject/Test site 1/Design 6/BlogApp/Pages/Blogs.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-5v5rdy4c5m
@@ -64,6 +80,18 @@ build_metadata.AdditionalFiles.CssScope = b-5v5rdy4c5m
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1NlY3Rpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-82y58nv9kk
 
+[C:/Users/user/OneDrive/Desktop/Apps and files folder/Coding/Microsoft Course/PersonalProject/Test site 1/Design 6/BlogApp/Pages/Forums/ForumsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ydW1zXEZvcnVtc1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-tn8qnj96mx
+
 [C:/Users/user/OneDrive/Desktop/Apps and files folder/Coding/Microsoft Course/PersonalProject/Test site 1/Design 6/BlogApp/Pages/FriendsSection.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnJpZW5kc1NlY3Rpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-wbv2c9mgik
+
+[C:/Users/user/OneDrive/Desktop/Apps and files folder/Coding/Microsoft Course/PersonalProject/Test site 1/Design 6/BlogApp/Pages/Media/MediaCategories.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWFcTWVkaWFDYXRlZ29yaWVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-wrz5hufd3z
+
+[C:/Users/user/OneDrive/Desktop/Apps and files folder/Coding/Microsoft Course/PersonalProject/Test site 1/Design 6/BlogApp/Pages/Media/MediaSection.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWFcTWVkaWFTZWN0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-81jkj7cwb0

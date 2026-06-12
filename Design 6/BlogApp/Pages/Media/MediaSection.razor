@@ -1,0 +1,13 @@
+@using BlogApp.Model
+<div class="media-section">
+    <TopSection Title="Media"/>
+</div>
+
+@code {
+    public List<MediaURL> medias = new List<MediaURL> ();
+
+    protected override async Task OnInitializedAsync()
+    {
+        medias = new List<MediaURL>();
+    }
+}

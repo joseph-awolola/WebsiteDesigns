@@ -1,15 +1,53 @@
 <div class="friends-container">
     <h3>Friends</h3>
     <div class="friends-box">
-        <div class="friends">friend 1</div>
-        <div class="friends">friend 1</div>
-        <div class="friends">friend 1</div>
+        @foreach (string friend in friendBox)
+        {
+            <div class="friends">@friend</div>
+            
+        }
     </div>
 <br>
     <h3>Who to follow</h3>
     <div class="friends-box">
-        <div class="friends">friend 1</div>
-        <div class="friends">friend 1</div>
-        <div class="friends">friend 1</div>
+        @foreach (string suggestion in followSuggestions)
+        {
+            <div class="friends">@suggestion</div>
+            
+        }
     </div>
 </div>
+
+@code {
+    public List<string> friendBox { get; set; } = new ();
+    public List<string> followSuggestions { get; set; } = new ();
+
+
+    private void FetchFriendsList()
+    {
+        friendBox = new List<string>()
+            {
+                "Michael",
+                "John",
+                "Samuel"
+            };
+    }
+
+
+    private void FollowSuggestions()
+    {
+        followSuggestions = new List<string>()
+            {
+                "DavidKent",
+                "BatNoir",
+                "MaeveWonder"
+            };
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        FetchFriendsList();
+        FollowSuggestions();
+    }
+}
