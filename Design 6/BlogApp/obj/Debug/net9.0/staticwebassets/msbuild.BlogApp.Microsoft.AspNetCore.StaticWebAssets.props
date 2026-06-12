@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>ty6n8so50z</Fingerprint>
-      <Integrity>+8QbLlIXo1P6HW0oUDEiveRB1ZNqNLCVrnX5ylaZ60w=</Integrity>
+      <Fingerprint>vlvh4kihtf</Fingerprint>
+      <Integrity>vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BlogApp.styles.css'))</OriginalItemSpec>
