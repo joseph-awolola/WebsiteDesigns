@@ -94,6 +94,14 @@ ul button {
 
 }
 
+ul button:hover {
+    background-color: #3b83f6e0;
+}
+
+ul button:active {
+    background-color: #3b83f6bf;
+}
+
 ul a {
     width: 100%;
 }

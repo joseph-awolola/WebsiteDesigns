@@ -94,6 +94,14 @@ ul button[b-3f1xfxj9il] {
 
 }
 
+ul button:hover[b-3f1xfxj9il] {
+    background-color: #3b83f6e0;
+}
+
+ul button:active[b-3f1xfxj9il] {
+    background-color: #3b83f6bf;
+}
+
 ul a[b-3f1xfxj9il] {
     width: 100%;
 }

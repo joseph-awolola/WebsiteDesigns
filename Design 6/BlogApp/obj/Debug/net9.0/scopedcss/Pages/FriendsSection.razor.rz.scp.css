@@ -24,6 +24,22 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 20px;
+}
+
+.friends-box img[b-wbv2c9mgik] {
+    width: fit-content;
+}
+
+.pfp-container[b-wbv2c9mgik] {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .friends-box .friends:hover[b-wbv2c9mgik] {

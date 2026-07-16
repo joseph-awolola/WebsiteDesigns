@@ -1,0 +1,22 @@
+
+@if  (InView)
+{
+    <div class="overlay" onclick="@HidePost">
+
+    <div class="post-container">
+        <h2>Post</h2>
+        <InputText ></InputText>
+        <textarea class="InputPost" placeholder="Say something"></textarea>
+    </div>
+     </div>
+}
+
+
+@code {
+    [Parameter]
+    public bool InView { get; set; }
+    public void HidePost()
+    {
+        InView = false;
+    }
+}

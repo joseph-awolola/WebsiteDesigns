@@ -1,13 +1,32 @@
 @using BlogApp.Model
 <div class="media-section">
-    <TopSection Title="Media"/>
+    <TopSection Title="Media" FeedControl="false"/>
+
+    <div class="media-container">
+        @foreach (string media in medias)
+        {
+            <div>                
+                <i class="fa-regular fa-image"></i>
+                <img src="@media"/>
+
+            </div>
+            
+        }
+    </div>
+    
 </div>
+<MediaFilter />
+
 
 @code {
-    public List<MediaURL> medias = new List<MediaURL> ();
+    public List<string> medias = new List<string> ();
 
     protected override async Task OnInitializedAsync()
     {
-        medias = new List<MediaURL>();
+        for (int i = 0; i < 20; i++)
+        {
+            medias.Add($"https://picsum.photos/seed/{i}/800/400");
+        }
     }
+
 }

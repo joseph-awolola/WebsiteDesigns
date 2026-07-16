@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6jz370VZXo4BloRXWtjWTwzB0HQixudn78LDEH8lKFU=",
+  "Hash": "/4Iq8ZEKnGYkI8Gh0cfEi5VaJAb98vxfk8e3e6RbhAQ=",
   "Source": "BlogApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "npck06940f",
-      "Integrity": "pRpF6/jJ1VLXcFYKdCuQeQfclLC8A9KyBOahF53NuAE=",
+      "Fingerprint": "nv6354otq6",
+      "Integrity": "bUVavJADLDiRExrhhJdA0Yt81uHWrlbizQZ1oy9FkVc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "o938yu5e1k",
-      "Integrity": "dNP/HVnQfSuD+V43ElSonnpnG4097cvTBXhv3u+XZqM=",
+      "Fingerprint": "njech1rs7l",
+      "Integrity": "XSaom2Fb+XnlK1Ixp3VwR+LoZ99NVISeLHUcfExTFDU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\BlogApp.pdb"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "upe0h47n2r",
-      "Integrity": "grtNVwJqYdNmwBrf+cyKDhTzq9hFAd9Bua4oxAr6Tvg=",
+      "Fingerprint": "do1r39d3dr",
+      "Integrity": "w4dIQ/d35lmvbnMwpkr8jwu6YvFnASWwjWW6Pu9OvtQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\webcil\\BlogApp.wasm"
@@ -5372,12 +5372,12 @@
       "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Xml.XPath.XDocument.wasm"
     },
     {
-      "Identity": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\709z205ubu-vlvh4kihtf.gz",
+      "Identity": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\709z205ubu-hidrfpnu0s.gz",
       "SourceId": "BlogApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "BlogApp#[.{fingerprint=vlvh4kihtf}]?.styles.css.gz",
+      "RelativePath": "BlogApp#[.{fingerprint=hidrfpnu0s}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -5386,8 +5386,8 @@
       "RelatedAsset": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlogApp.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kny74zj6io",
-      "Integrity": "MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM=",
+      "Fingerprint": "odcf8vzr7f",
+      "Integrity": "lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlogApp.styles.css"
@@ -5729,12 +5729,12 @@
       "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Security.Cryptography.Cng.wasm"
     },
     {
-      "Identity": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\9gjjtq5n1k-vlvh4kihtf.gz",
+      "Identity": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\9gjjtq5n1k-hidrfpnu0s.gz",
       "SourceId": "BlogApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "BlogApp#[.{fingerprint=vlvh4kihtf}]!.bundle.scp.css.gz",
+      "RelativePath": "BlogApp#[.{fingerprint=hidrfpnu0s}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -5743,8 +5743,8 @@
       "RelatedAsset": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlogApp.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kny74zj6io",
-      "Integrity": "MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM=",
+      "Fingerprint": "odcf8vzr7f",
+      "Integrity": "lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlogApp.bundle.scp.css"
@@ -6149,12 +6149,12 @@
       "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.ComponentModel.Primitives.wasm"
     },
     {
-      "Identity": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\bh0fgsyhhx-o938yu5e1k.gz",
+      "Identity": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\bh0fgsyhhx-njech1rs7l.gz",
       "SourceId": "BlogApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/BlogApp#[.{fingerprint=o938yu5e1k}]!.pdb.gz",
+      "RelativePath": "_framework/BlogApp#[.{fingerprint=njech1rs7l}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6163,8 +6163,8 @@
       "RelatedAsset": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlogApp.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "w2sn8knw09",
-      "Integrity": "6DUpGU5SgMBBYwPNUOVc0/0DEAHWGZ1w7sbLswLMG8E=",
+      "Fingerprint": "y4qof5sojm",
+      "Integrity": "rgIylg3oMIPHrHeteEpnIaRwjntryU1Q6S52yZ/usdM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlogApp.pdb"
@@ -7052,7 +7052,7 @@
       "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.ComponentModel.EventBasedAsync.wasm"
     },
     {
-      "Identity": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\igmec9xfph-npck06940f.gz",
+      "Identity": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\igmec9xfph-nv6354otq6.gz",
       "SourceId": "BlogApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\",
@@ -7066,8 +7066,8 @@
       "RelatedAsset": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jy29g0tw4c",
-      "Integrity": "O1dhyHVVWspvbdgziu8te4UrLZMc+0EFg1ajewAVfOE=",
+      "Fingerprint": "l6hz4gc8wr",
+      "Integrity": "vcVcf2WnBeZ3GUp6TxcEGZPRIWSB8XTm7yuIC7xLUO0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -9299,12 +9299,12 @@
       "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\xcrcv4pvfi-upe0h47n2r.gz",
+      "Identity": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\xcrcv4pvfi-do1r39d3dr.gz",
       "SourceId": "BlogApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/BlogApp#[.{fingerprint=upe0h47n2r}]!.wasm.gz",
+      "RelativePath": "_framework/BlogApp#[.{fingerprint=do1r39d3dr}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9313,8 +9313,8 @@
       "RelatedAsset": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlogApp.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zxi87wrwg3",
-      "Integrity": "GVe3lMGTg6WZVIlDkBusAc4DP32FTGkTS8NLjdte4fw=",
+      "Fingerprint": "83adzdqfyu",
+      "Integrity": "rNRjVIoAjGOxTQ2kQ+1rTSZDoBrn2zR52kh6L3apM0E=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlogApp.wasm"
@@ -9628,8 +9628,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "vlvh4kihtf",
-      "Integrity": "vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA=",
+      "Fingerprint": "hidrfpnu0s",
+      "Integrity": "KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlogApp.styles.css"
@@ -9649,8 +9649,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "vlvh4kihtf",
-      "Integrity": "vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA=",
+      "Fingerprint": "hidrfpnu0s",
+      "Integrity": "KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlogApp.bundle.scp.css"
@@ -10705,11 +10705,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pRpF6/jJ1VLXcFYKdCuQeQfclLC8A9KyBOahF53NuAE=\""
+          "Value": "\"bUVavJADLDiRExrhhJdA0Yt81uHWrlbizQZ1oy9FkVc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:51 GMT"
+          "Value": "Wed, 17 Jun 2026 17:28:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10719,18 +10719,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pRpF6/jJ1VLXcFYKdCuQeQfclLC8A9KyBOahF53NuAE="
+          "Value": "sha256-bUVavJADLDiRExrhhJdA0Yt81uHWrlbizQZ1oy9FkVc="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\igmec9xfph-npck06940f.gz",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\igmec9xfph-nv6354otq6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081300813"
+          "Quality": "0.000081280988"
         }
       ],
       "ResponseHeaders": [
@@ -10740,15 +10740,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12299"
+          "Value": "12302"
         },
         {
           "Name": "ETag",
-          "Value": "\"O1dhyHVVWspvbdgziu8te4UrLZMc+0EFg1ajewAVfOE=\""
+          "Value": "\"vcVcf2WnBeZ3GUp6TxcEGZPRIWSB8XTm7yuIC7xLUO0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 13:02:32 GMT"
+          "Value": "Wed, 17 Jun 2026 17:08:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10768,19 +10768,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pRpF6/jJ1VLXcFYKdCuQeQfclLC8A9KyBOahF53NuAE=\""
+          "Value": "W/\"bUVavJADLDiRExrhhJdA0Yt81uHWrlbizQZ1oy9FkVc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pRpF6/jJ1VLXcFYKdCuQeQfclLC8A9KyBOahF53NuAE="
+          "Value": "sha256-bUVavJADLDiRExrhhJdA0Yt81uHWrlbizQZ1oy9FkVc="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\igmec9xfph-npck06940f.gz",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\igmec9xfph-nv6354otq6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10789,7 +10789,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12299"
+          "Value": "12302"
         },
         {
           "Name": "Content-Type",
@@ -10797,11 +10797,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"O1dhyHVVWspvbdgziu8te4UrLZMc+0EFg1ajewAVfOE=\""
+          "Value": "\"vcVcf2WnBeZ3GUp6TxcEGZPRIWSB8XTm7yuIC7xLUO0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 13:02:32 GMT"
+          "Value": "Wed, 17 Jun 2026 17:08:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10819,7 +10819,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-O1dhyHVVWspvbdgziu8te4UrLZMc+0EFg1ajewAVfOE="
+          "Value": "sha256-vcVcf2WnBeZ3GUp6TxcEGZPRIWSB8XTm7yuIC7xLUO0="
         }
       ]
     },
@@ -10961,305 +10961,7 @@
       ]
     },
     {
-      "Route": "_framework/BlogApp.o938yu5e1k.pdb",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlogApp.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38768"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dNP/HVnQfSuD+V43ElSonnpnG4097cvTBXhv3u+XZqM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o938yu5e1k"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BlogApp.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-dNP/HVnQfSuD+V43ElSonnpnG4097cvTBXhv3u+XZqM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlogApp.o938yu5e1k.pdb",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\bh0fgsyhhx-o938yu5e1k.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000033356683"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "29978"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6DUpGU5SgMBBYwPNUOVc0/0DEAHWGZ1w7sbLswLMG8E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"dNP/HVnQfSuD+V43ElSonnpnG4097cvTBXhv3u+XZqM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o938yu5e1k"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BlogApp.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-dNP/HVnQfSuD+V43ElSonnpnG4097cvTBXhv3u+XZqM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlogApp.o938yu5e1k.pdb.gz",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\bh0fgsyhhx-o938yu5e1k.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "29978"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6DUpGU5SgMBBYwPNUOVc0/0DEAHWGZ1w7sbLswLMG8E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o938yu5e1k"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BlogApp.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6DUpGU5SgMBBYwPNUOVc0/0DEAHWGZ1w7sbLswLMG8E="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlogApp.pdb",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlogApp.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38768"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dNP/HVnQfSuD+V43ElSonnpnG4097cvTBXhv3u+XZqM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dNP/HVnQfSuD+V43ElSonnpnG4097cvTBXhv3u+XZqM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlogApp.pdb",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\bh0fgsyhhx-o938yu5e1k.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000033356683"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "29978"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6DUpGU5SgMBBYwPNUOVc0/0DEAHWGZ1w7sbLswLMG8E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"dNP/HVnQfSuD+V43ElSonnpnG4097cvTBXhv3u+XZqM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dNP/HVnQfSuD+V43ElSonnpnG4097cvTBXhv3u+XZqM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlogApp.pdb.gz",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\bh0fgsyhhx-o938yu5e1k.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "29978"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6DUpGU5SgMBBYwPNUOVc0/0DEAHWGZ1w7sbLswLMG8E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-6DUpGU5SgMBBYwPNUOVc0/0DEAHWGZ1w7sbLswLMG8E="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlogApp.upe0h47n2r.wasm",
+      "Route": "_framework/BlogApp.do1r39d3dr.wasm",
       "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlogApp.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11269,7 +10971,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29973"
+          "Value": "36629"
         },
         {
           "Name": "Content-Type",
@@ -11277,11 +10979,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"grtNVwJqYdNmwBrf+cyKDhTzq9hFAd9Bua4oxAr6Tvg=\""
+          "Value": "\"w4dIQ/d35lmvbnMwpkr8jwu6YvFnASWwjWW6Pu9OvtQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
+          "Value": "Wed, 17 Jun 2026 17:28:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11291,7 +10993,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "upe0h47n2r"
+          "Value": "do1r39d3dr"
         },
         {
           "Name": "label",
@@ -11299,18 +11001,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-grtNVwJqYdNmwBrf+cyKDhTzq9hFAd9Bua4oxAr6Tvg="
+          "Value": "sha256-w4dIQ/d35lmvbnMwpkr8jwu6YvFnASWwjWW6Pu9OvtQ="
         }
       ]
     },
     {
-      "Route": "_framework/BlogApp.upe0h47n2r.wasm",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\xcrcv4pvfi-upe0h47n2r.gz",
+      "Route": "_framework/BlogApp.do1r39d3dr.wasm",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\xcrcv4pvfi-do1r39d3dr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000090326077"
+          "Quality": "0.000072896924"
         }
       ],
       "ResponseHeaders": [
@@ -11320,15 +11022,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11070"
+          "Value": "13717"
         },
         {
           "Name": "ETag",
-          "Value": "\"GVe3lMGTg6WZVIlDkBusAc4DP32FTGkTS8NLjdte4fw=\""
+          "Value": "\"rNRjVIoAjGOxTQ2kQ+1rTSZDoBrn2zR52kh6L3apM0E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:51 GMT"
+          "Value": "Wed, 17 Jun 2026 17:28:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11348,13 +11050,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"grtNVwJqYdNmwBrf+cyKDhTzq9hFAd9Bua4oxAr6Tvg=\""
+          "Value": "W/\"w4dIQ/d35lmvbnMwpkr8jwu6YvFnASWwjWW6Pu9OvtQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "upe0h47n2r"
+          "Value": "do1r39d3dr"
         },
         {
           "Name": "label",
@@ -11362,13 +11064,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-grtNVwJqYdNmwBrf+cyKDhTzq9hFAd9Bua4oxAr6Tvg="
+          "Value": "sha256-w4dIQ/d35lmvbnMwpkr8jwu6YvFnASWwjWW6Pu9OvtQ="
         }
       ]
     },
     {
-      "Route": "_framework/BlogApp.upe0h47n2r.wasm.gz",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\xcrcv4pvfi-upe0h47n2r.gz",
+      "Route": "_framework/BlogApp.do1r39d3dr.wasm.gz",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\xcrcv4pvfi-do1r39d3dr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11377,7 +11079,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11070"
+          "Value": "13717"
         },
         {
           "Name": "Content-Type",
@@ -11385,11 +11087,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GVe3lMGTg6WZVIlDkBusAc4DP32FTGkTS8NLjdte4fw=\""
+          "Value": "\"rNRjVIoAjGOxTQ2kQ+1rTSZDoBrn2zR52kh6L3apM0E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:51 GMT"
+          "Value": "Wed, 17 Jun 2026 17:28:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11407,7 +11109,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "upe0h47n2r"
+          "Value": "do1r39d3dr"
         },
         {
           "Name": "label",
@@ -11415,7 +11117,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GVe3lMGTg6WZVIlDkBusAc4DP32FTGkTS8NLjdte4fw="
+          "Value": "sha256-rNRjVIoAjGOxTQ2kQ+1rTSZDoBrn2zR52kh6L3apM0E="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlogApp.njech1rs7l.pdb",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlogApp.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XSaom2Fb+XnlK1Ixp3VwR+LoZ99NVISeLHUcfExTFDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Jun 2026 17:28:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "njech1rs7l"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlogApp.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XSaom2Fb+XnlK1Ixp3VwR+LoZ99NVISeLHUcfExTFDU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlogApp.njech1rs7l.pdb",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\bh0fgsyhhx-njech1rs7l.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000028424434"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35180"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rgIylg3oMIPHrHeteEpnIaRwjntryU1Q6S52yZ/usdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Jun 2026 17:28:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XSaom2Fb+XnlK1Ixp3VwR+LoZ99NVISeLHUcfExTFDU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "njech1rs7l"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlogApp.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XSaom2Fb+XnlK1Ixp3VwR+LoZ99NVISeLHUcfExTFDU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlogApp.njech1rs7l.pdb.gz",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\bh0fgsyhhx-njech1rs7l.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rgIylg3oMIPHrHeteEpnIaRwjntryU1Q6S52yZ/usdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Jun 2026 17:28:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "njech1rs7l"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlogApp.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rgIylg3oMIPHrHeteEpnIaRwjntryU1Q6S52yZ/usdM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlogApp.pdb",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlogApp.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XSaom2Fb+XnlK1Ixp3VwR+LoZ99NVISeLHUcfExTFDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Jun 2026 17:28:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XSaom2Fb+XnlK1Ixp3VwR+LoZ99NVISeLHUcfExTFDU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlogApp.pdb",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\bh0fgsyhhx-njech1rs7l.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000028424434"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35180"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rgIylg3oMIPHrHeteEpnIaRwjntryU1Q6S52yZ/usdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Jun 2026 17:28:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XSaom2Fb+XnlK1Ixp3VwR+LoZ99NVISeLHUcfExTFDU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XSaom2Fb+XnlK1Ixp3VwR+LoZ99NVISeLHUcfExTFDU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlogApp.pdb.gz",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\bh0fgsyhhx-njech1rs7l.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rgIylg3oMIPHrHeteEpnIaRwjntryU1Q6S52yZ/usdM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Jun 2026 17:28:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rgIylg3oMIPHrHeteEpnIaRwjntryU1Q6S52yZ/usdM="
         }
       ]
     },
@@ -11430,7 +11430,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29973"
+          "Value": "36629"
         },
         {
           "Name": "Content-Type",
@@ -11438,11 +11438,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"grtNVwJqYdNmwBrf+cyKDhTzq9hFAd9Bua4oxAr6Tvg=\""
+          "Value": "\"w4dIQ/d35lmvbnMwpkr8jwu6YvFnASWwjWW6Pu9OvtQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
+          "Value": "Wed, 17 Jun 2026 17:28:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11452,18 +11452,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-grtNVwJqYdNmwBrf+cyKDhTzq9hFAd9Bua4oxAr6Tvg="
+          "Value": "sha256-w4dIQ/d35lmvbnMwpkr8jwu6YvFnASWwjWW6Pu9OvtQ="
         }
       ]
     },
     {
       "Route": "_framework/BlogApp.wasm",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\xcrcv4pvfi-upe0h47n2r.gz",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\xcrcv4pvfi-do1r39d3dr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000090326077"
+          "Quality": "0.000072896924"
         }
       ],
       "ResponseHeaders": [
@@ -11473,15 +11473,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11070"
+          "Value": "13717"
         },
         {
           "Name": "ETag",
-          "Value": "\"GVe3lMGTg6WZVIlDkBusAc4DP32FTGkTS8NLjdte4fw=\""
+          "Value": "\"rNRjVIoAjGOxTQ2kQ+1rTSZDoBrn2zR52kh6L3apM0E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:51 GMT"
+          "Value": "Wed, 17 Jun 2026 17:28:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11501,19 +11501,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"grtNVwJqYdNmwBrf+cyKDhTzq9hFAd9Bua4oxAr6Tvg=\""
+          "Value": "W/\"w4dIQ/d35lmvbnMwpkr8jwu6YvFnASWwjWW6Pu9OvtQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-grtNVwJqYdNmwBrf+cyKDhTzq9hFAd9Bua4oxAr6Tvg="
+          "Value": "sha256-w4dIQ/d35lmvbnMwpkr8jwu6YvFnASWwjWW6Pu9OvtQ="
         }
       ]
     },
     {
       "Route": "_framework/BlogApp.wasm.gz",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\xcrcv4pvfi-upe0h47n2r.gz",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\xcrcv4pvfi-do1r39d3dr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11522,7 +11522,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11070"
+          "Value": "13717"
         },
         {
           "Name": "Content-Type",
@@ -11530,11 +11530,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GVe3lMGTg6WZVIlDkBusAc4DP32FTGkTS8NLjdte4fw=\""
+          "Value": "\"rNRjVIoAjGOxTQ2kQ+1rTSZDoBrn2zR52kh6L3apM0E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:51 GMT"
+          "Value": "Wed, 17 Jun 2026 17:28:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11552,7 +11552,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GVe3lMGTg6WZVIlDkBusAc4DP32FTGkTS8NLjdte4fw="
+          "Value": "sha256-rNRjVIoAjGOxTQ2kQ+1rTSZDoBrn2zR52kh6L3apM0E="
         }
       ]
     },
@@ -71158,12 +71158,12 @@
     },
     {
       "Route": "BlogApp.bundle.scp.css",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\9gjjtq5n1k-vlvh4kihtf.gz",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\9gjjtq5n1k-hidrfpnu0s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000348068221"
+          "Quality": "0.000300571085"
         }
       ],
       "ResponseHeaders": [
@@ -71173,15 +71173,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2872"
+          "Value": "3326"
         },
         {
           "Name": "ETag",
-          "Value": "\"MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM=\""
+          "Value": "\"lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
+          "Value": "Wed, 17 Jun 2026 17:10:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71201,13 +71201,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA=\""
+          "Value": "W/\"KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA="
+          "Value": "sha256-KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE="
         }
       ]
     },
@@ -71222,7 +71222,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13041"
+          "Value": "15489"
         },
         {
           "Name": "Content-Type",
@@ -71230,11 +71230,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA=\""
+          "Value": "\"KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
+          "Value": "Wed, 17 Jun 2026 17:10:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71244,13 +71244,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA="
+          "Value": "sha256-KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE="
         }
       ]
     },
     {
       "Route": "BlogApp.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\9gjjtq5n1k-vlvh4kihtf.gz",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\9gjjtq5n1k-hidrfpnu0s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71259,7 +71259,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2872"
+          "Value": "3326"
         },
         {
           "Name": "Content-Type",
@@ -71267,11 +71267,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM=\""
+          "Value": "\"lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
+          "Value": "Wed, 17 Jun 2026 17:10:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71289,18 +71289,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM="
+          "Value": "sha256-lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs="
         }
       ]
     },
     {
-      "Route": "BlogApp.styles.css",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\709z205ubu-vlvh4kihtf.gz",
+      "Route": "BlogApp.hidrfpnu0s.bundle.scp.css",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\9gjjtq5n1k-hidrfpnu0s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000348068221"
+          "Quality": "0.000300571085"
         }
       ],
       "ResponseHeaders": [
@@ -71310,152 +71310,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2872"
+          "Value": "3326"
         },
         {
           "Name": "ETag",
-          "Value": "\"MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM=\""
+          "Value": "\"lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA="
-        }
-      ]
-    },
-    {
-      "Route": "BlogApp.styles.css",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlogApp.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13041"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA="
-        }
-      ]
-    },
-    {
-      "Route": "BlogApp.styles.css.gz",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\709z205ubu-vlvh4kihtf.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2872"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM="
-        }
-      ]
-    },
-    {
-      "Route": "BlogApp.vlvh4kihtf.bundle.scp.css",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\9gjjtq5n1k-vlvh4kihtf.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000348068221"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2872"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
+          "Value": "Wed, 17 Jun 2026 17:10:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71475,13 +71338,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA=\""
+          "Value": "W/\"KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vlvh4kihtf"
+          "Value": "hidrfpnu0s"
         },
         {
           "Name": "label",
@@ -71489,12 +71352,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA="
+          "Value": "sha256-KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE="
         }
       ]
     },
     {
-      "Route": "BlogApp.vlvh4kihtf.bundle.scp.css",
+      "Route": "BlogApp.hidrfpnu0s.bundle.scp.css",
       "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlogApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -71504,7 +71367,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13041"
+          "Value": "15489"
         },
         {
           "Name": "Content-Type",
@@ -71512,11 +71375,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA=\""
+          "Value": "\"KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
+          "Value": "Wed, 17 Jun 2026 17:10:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71526,7 +71389,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vlvh4kihtf"
+          "Value": "hidrfpnu0s"
         },
         {
           "Name": "label",
@@ -71534,13 +71397,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA="
+          "Value": "sha256-KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE="
         }
       ]
     },
     {
-      "Route": "BlogApp.vlvh4kihtf.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\9gjjtq5n1k-vlvh4kihtf.gz",
+      "Route": "BlogApp.hidrfpnu0s.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\9gjjtq5n1k-hidrfpnu0s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71549,7 +71412,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2872"
+          "Value": "3326"
         },
         {
           "Name": "Content-Type",
@@ -71557,11 +71420,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM=\""
+          "Value": "\"lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
+          "Value": "Wed, 17 Jun 2026 17:10:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71579,7 +71442,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vlvh4kihtf"
+          "Value": "hidrfpnu0s"
         },
         {
           "Name": "label",
@@ -71587,18 +71450,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM="
+          "Value": "sha256-lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs="
         }
       ]
     },
     {
-      "Route": "BlogApp.vlvh4kihtf.styles.css",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\709z205ubu-vlvh4kihtf.gz",
+      "Route": "BlogApp.hidrfpnu0s.styles.css",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\709z205ubu-hidrfpnu0s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000348068221"
+          "Quality": "0.000300571085"
         }
       ],
       "ResponseHeaders": [
@@ -71608,15 +71471,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2872"
+          "Value": "3326"
         },
         {
           "Name": "ETag",
-          "Value": "\"MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM=\""
+          "Value": "\"lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
+          "Value": "Wed, 17 Jun 2026 17:10:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71636,13 +71499,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA=\""
+          "Value": "W/\"KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vlvh4kihtf"
+          "Value": "hidrfpnu0s"
         },
         {
           "Name": "label",
@@ -71650,12 +71513,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA="
+          "Value": "sha256-KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE="
         }
       ]
     },
     {
-      "Route": "BlogApp.vlvh4kihtf.styles.css",
+      "Route": "BlogApp.hidrfpnu0s.styles.css",
       "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlogApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -71665,7 +71528,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13041"
+          "Value": "15489"
         },
         {
           "Name": "Content-Type",
@@ -71673,11 +71536,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA=\""
+          "Value": "\"KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
+          "Value": "Wed, 17 Jun 2026 17:10:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71687,7 +71550,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vlvh4kihtf"
+          "Value": "hidrfpnu0s"
         },
         {
           "Name": "label",
@@ -71695,13 +71558,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vZENNMWiTSL3+ffhOonHTuOWB6gYlD4ftha4zvNU6OA="
+          "Value": "sha256-KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE="
         }
       ]
     },
     {
-      "Route": "BlogApp.vlvh4kihtf.styles.css.gz",
-      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\709z205ubu-vlvh4kihtf.gz",
+      "Route": "BlogApp.hidrfpnu0s.styles.css.gz",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\709z205ubu-hidrfpnu0s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71710,7 +71573,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2872"
+          "Value": "3326"
         },
         {
           "Name": "Content-Type",
@@ -71718,11 +71581,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM=\""
+          "Value": "\"lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Jun 2026 15:28:49 GMT"
+          "Value": "Wed, 17 Jun 2026 17:10:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71740,7 +71603,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vlvh4kihtf"
+          "Value": "hidrfpnu0s"
         },
         {
           "Name": "label",
@@ -71748,7 +71611,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MEvW+pv/JKMGkodalvSo2h19xRp6FulwCULMeC1siWM="
+          "Value": "sha256-lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs="
+        }
+      ]
+    },
+    {
+      "Route": "BlogApp.styles.css",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\709z205ubu-hidrfpnu0s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000300571085"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3326"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Jun 2026 17:10:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE="
+        }
+      ]
+    },
+    {
+      "Route": "BlogApp.styles.css",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlogApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15489"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Jun 2026 17:10:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KeDzy+WCpypVzfhP/Yz1mCNacGone8lIYlwUDt8oTDE="
+        }
+      ]
+    },
+    {
+      "Route": "BlogApp.styles.css.gz",
+      "AssetFile": "C:\\Users\\user\\OneDrive\\Desktop\\Apps and files folder\\Coding\\Microsoft Course\\PersonalProject\\Test site 1\\Design 6\\BlogApp\\obj\\Debug\\net9.0\\compressed\\709z205ubu-hidrfpnu0s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Jun 2026 17:10:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lD87IKRynXuVX856+yMHKOnGLEiBsX6hslIJx7yE7xs="
         }
       ]
     },

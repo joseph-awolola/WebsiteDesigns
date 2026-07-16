@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlogApp",
   "resources": {
-    "hash": "sha256-u9HgC0U0LvbZOAjGgaXVz3HBoQMAbdWiXYQJ14O3uSk=",
+    "hash": "sha256-o7kz6wOSzpCGqtHKx/6PlJKXe6a3rE1uvOpNuydBm+w=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.esv38zo127.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.cwj0bpb71v.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "BlogApp.upe0h47n2r.wasm": "BlogApp.wasm",
-      "BlogApp.o938yu5e1k.pdb": "BlogApp.pdb"
+      "BlogApp.do1r39d3dr.wasm": "BlogApp.wasm",
+      "BlogApp.njech1rs7l.pdb": "BlogApp.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -412,10 +412,10 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "BlogApp.upe0h47n2r.wasm": "sha256-grtNVwJqYdNmwBrf+cyKDhTzq9hFAd9Bua4oxAr6Tvg="
+      "BlogApp.do1r39d3dr.wasm": "sha256-w4dIQ/d35lmvbnMwpkr8jwu6YvFnASWwjWW6Pu9OvtQ="
     },
     "pdb": {
-      "BlogApp.o938yu5e1k.pdb": "sha256-dNP/HVnQfSuD+V43ElSonnpnG4097cvTBXhv3u+XZqM="
+      "BlogApp.njech1rs7l.pdb": "sha256-XSaom2Fb+XnlK1Ixp3VwR+LoZ99NVISeLHUcfExTFDU="
     }
   },
   "cacheBootResources": true,

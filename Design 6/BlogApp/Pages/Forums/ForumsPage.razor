@@ -1,0 +1,29 @@
+@page "/forums"
+@using BlogApp.Model
+
+<div class="forums-container">
+    <TopSection Title="Forums" FeedControl="false"/>
+
+    @foreach (var forum in forums)
+    {
+        <div class="forum-item">
+            <h1>@forum.Title</h1>
+            <p>@forum.Content</p>
+        </div>
+    }
+</div>
+
+@code 
+{
+    public List<Forum> forums = new List<Forum> ();
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        for (int i = 0; i < 3; i++)
+        {
+            Console.WriteLine("Eureka");
+            forums.Add(new Forum() {Id=i, Title="Hello boi", Content="some random content"});
+        }
+    }
+}

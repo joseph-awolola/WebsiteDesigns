@@ -1,13 +1,21 @@
 <div class="top_section">
         <h1>@Title</h1>
-        <ul class="blog-filter">
+
+        @if (FeedControl)
+        {
+            <ul class="blog-filter">
             <li>Recent</li>
             <li>Friends</li>
             <li>Followers</li>
-        </ul>
+            </ul>
+        }
+        
 </div>
 
 @code {
     [Parameter]
     public string Title {get; set; } = string.Empty;
+
+    [Parameter]
+    public bool FeedControl {get; set; } = true;
 }

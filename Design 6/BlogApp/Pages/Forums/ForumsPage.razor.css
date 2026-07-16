@@ -1,0 +1,13 @@
+.forums-container {
+    width: 60%;
+    height: 100vh;
+    background-color: #1a1a2e;
+    box-sizing: border-box;
+}
+
+.forum-item {
+    width: 100%;
+    height: 100px;
+    max-height: 300px;
+    background-color: red;
+}

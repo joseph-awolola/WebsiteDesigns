@@ -1,10 +1,17 @@
+@using BlogApp.Model
+
 <div class="friends-container">
     <h3>Friends</h3>
     <div class="friends-box">
-        @foreach (string friend in friendBox)
+        @foreach (Friend f in friend)
         {
-            <div class="friends">@friend</div>
             
+            <div class="friends">
+                <div class="pfp-container" style="background-image: url(@f.Pfp);">
+
+                </div>
+                @f.Name
+            </div>
         }
     </div>
 <br>
@@ -19,12 +26,22 @@
 </div>
 
 @code {
+    public List<Friend> friend = new ();
     public List<string> friendBox { get; set; } = new ();
     public List<string> followSuggestions { get; set; } = new ();
 
 
     private void FetchFriendsList()
     {
+        for (int i = 0; i < 3; i++)
+        {
+            friend.Add(new Friend(
+                i+1, 
+                "Michael",
+                "@awesomemay",
+                "https://cdn2.steamgriddb.com/icon/6c98d8dcc54fbe460976496b08d838f6.png"
+            ));
+        }
         friendBox = new List<string>()
             {
                 "Michael",

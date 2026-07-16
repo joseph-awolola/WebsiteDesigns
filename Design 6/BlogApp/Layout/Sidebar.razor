@@ -1,3 +1,4 @@
+@using BlogApp.Pages.UserPost
 <div class="sidebar_section">
     <span id="title">Socify</span>
     <ul>
@@ -7,10 +8,11 @@
         <a href="/friends"><li><i class="fa-solid fa-user-group"></i><span>Friends</span></li></a>
         <a href="/media"><li><i class="fa-regular fa-image"></i><span>Media  </span></li></a>
         
-        <button class="draft">
+        <button class="draft" @onclick="ShowPost">
             <i class="fa-regular fa-pen-to-square"></i>
             Post
         </button>
+        
     </ul>
 
     <aside class="user_func">
@@ -30,3 +32,19 @@
         
     </aside>
 </div>
+<UserPost InView="@InView"/>
+
+@code {
+    public bool InView { get; set; } = false;
+    public void ShowPost()
+    {
+        InView = true;
+        
+        Console.WriteLine("working");
+    }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+    }
+}

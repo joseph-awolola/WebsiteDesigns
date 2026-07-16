@@ -1,0 +1,16 @@
+.filter-container {
+    width: 30%;
+    height: 100vh;
+    background-color: #1a1a2e;
+    padding: 30px 30px;
+    
+}
+
+.filter {
+    margin-top: 50px;   
+}
+
+.filter input:hover
+{
+    cursor: pointer;
+}
