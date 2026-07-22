@@ -18,22 +18,34 @@
 
 </head>
 <body>
-    <header>
+    <header id="top">
         <nav>
             <ul class="left">
                 <a href="#"><li>Home</li></a>
-                <a href="#"><li>Contact</li></a>
-                <a href="#"><li>About</li></a>
+                <a href="#footer"><li>Contact</li></a>
+                <a href="#about"><li>About</li></a>
             </ul>
             <ul class="right">
-                <a href="#"><li><i class="fa-brands fa-discord tb-icon"></i>Github</li></a>
-                <a href="#"><li><i class="fa-brands fa-linkedin tb-icon"></i>Linkedin</li></a>
-                <a href="#"><li><i class="fa-solid fa-at tb-icon"></i>Email</li></a>
+                <a href="https://github.com/joseph-awolola" target="_blank"><i class="fa-brands fa-github"></i><li>Github</li></a>
+                <a href="https://www.linkedin.com/in/joseph-awolola-1689a7303/" target="_blank"><i class="fa-brands fa-linkedin tb-icon"></i><li>Linkedin</li></a>
+                <a href="https://mailto:josephawolola16@gmail.com"><li></i>Email</li></a>
             </ul>
+            <button class="menu">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+</button>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#">Home</a>
+  <a href="#footer">Contact</a>
+  <a href="#about">About</a>
+  <a href="https://github.com/joseph-awolola" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+  <a href="https://www.linkedin.com/in/joseph-awolola-1689a7303/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+  <a href="https://mailto:josephawolola16@gmail.com">Email</a>
         </nav>
     </header>
+    <main>
     <div class="hero">
-
+<div class="grid-overlay"></div>
 <div class="floating-icons" aria-hidden="true">
 
     <!-- terminal -->
@@ -85,10 +97,192 @@
       </svg>
     </span>
 
+    <!-- particles: circles, plus signs, triangles (all hollow) -->
+    <span class="shape circle p-1"></span>
+    <span class="shape plus p-2">+</span>
+    <span class="shape triangle p-3">
+      <svg viewBox="0 0 24 22"><polygon points="12,1 23,21 1,21"/></svg>
+    </span>
+    <span class="shape circle p-4"></span>
+    <span class="shape triangle p-5">
+      <svg viewBox="0 0 24 22"><polygon points="12,1 23,21 1,21"/></svg>
+    </span>
+
+    <span class="shape circle p-6"></span>
+    <span class="shape plus p-7">+</span>
+    <span class="shape triangle p-8">
+      <svg viewBox="0 0 24 22"><polygon points="12,1 23,21 1,21"/></svg>
+    </span>
+    <span class="shape circle p-9"></span>
+    <span class="shape triangle p-10">
+      <svg viewBox="0 0 24 22"><polygon points="12,1 23,21 1,21"/></svg>
+    </span>
+
   </div>
         <h1>Hi, I'm Joseph Awolola <br><span  id="target">Software Engineer</span></h1>
         
     </div>
+
+    <div class="about" id="about">
+      <div class="sec_cont">
+         <div class="sec">
+        <h1>What I Do</h1>
+        <p>I help brands, <br>small organizations and hobbyists build scalable applications which they can use to portray their business.
+          From full business websites to online marketplaces, I make sure to deliver results that best represent your brand, <br>delivering high quality results and professionally vetted end product.
+</p>
+      </div>
+      <div class="sec">
+        <h1>Who Am I</h1>
+        <p>I am fullstack developer with 3+ years of experience in building scalable applications and backend solutuions</p>
+      </div>
+      </div>
+     <div class="roles">
+      <aside>
+<div class="front">Frontend Developer <i class="fa-solid fa-angle-down"></i></div>
+        <div class="extra_content">
+          Building stunning visuals for brand faces that accurately portray your business module
+        </div>
+      </aside>
+      
+      <aside>
+        <div class="back">Backend Developer <i class="fa-solid fa-angle-down"></i></div>
+        <div class="extra_content">
+          Architecting secure and powerful backend solutions to handle all business transactions
+        </div>
+      </aside>
+      
+     </div>
+    </div>
+    <div class="projects">
+      <h1>PROJECTS</h1>
+        <div class="proj_display">
+         <div class="display">
+          <div class="main_content" id="project-display">
+            <div class="project-preview" id="project-preview">
+              <div class="project-details">
+                <h2 id="project-title">Portfolio Showcase</h2>
+                <p id="project-description">A rich portfolio display built with responsive layout, interactive project cards, and a clean green-on-black visual style.</p>
+                <div class="project-meta">
+                  <span id="project-tech">HTML • CSS • JavaScript</span>
+                  <a id="project-link" href="#" target="_blank" rel="noreferrer">View live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="widgets" id="project-widgets" role="tablist">
+        <button type="button" class="project-widget active" data-project="0">
+          <img src="Images/projects.jpg" alt="Portfolio screenshot">
+          <span>Portfolio</span>
+        </button>
+        <button type="button" class="project-widget" data-project="1">
+          <img src="Images/Screenshot 2026-05-17 124202.png" alt="E-commerce screenshot">
+          <span>E-commerce</span>
+        </button>
+        <button type="button" class="project-widget" data-project="2">
+          <img src="Images/Screenshot 2026-05-26 135104.png" alt="Dashboard screenshot">
+          <span>Dashboard</span>
+        </button>
+        <button type="button" class="project-widget" data-project="3">
+          <img src="Images/background.jpg" alt="Landing page screenshot">
+          <span>Landing Page</span>
+        </button>
+      </div>
+      </div>
+    </div>
+    <div class="certificates">
+      <h1>Certificates</h1>
+      <div class="certificate-box">
+        <div style="animation-delay: 0s;" class="cert">
+          <div class="ovelay">
+          <img src="Images/fullstack certificate.jpg" alt="a certificate">
+
+          </div>
+          <div class="cert_description">
+            MICROSOFT <br>FOUNDATIONS OF CODING FULLSTACK CERTIFICATE
+          </div>
+        </div>
+        <div style="animation-delay: .2s;" class="cert">
+          <div class="ovelay">
+            <img src="Images/cybersecurity certificate.jpg" alt="a certificate">
+
+          </div>
+<div class="cert_description">
+  ESAFEGUARD <br>TEENHACK 2025 CYBERSECURITY BOOTCAMP
+</div>
+        </div>
+        <div style="animation-delay: .4s;" class="cert">
+          <div class="ovelay">
+            <img src="Images/microsoft office certificate.jpg" alt="a certificate">
+          </div>
+          <div class="cert_description">
+            MICROSOFT OFFICE SPECIALIST <br>MICROSOFT OFFICE WORD SPECIALIST
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="stack">
+      <h1>Tech Stack</h1>
+      <div class="stack-grid">
+        <div class="stack-card">
+          <h2>Frontend</h2>
+          <div class="stack-list">
+            <div class="stack-pill">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 3h16l-1.6 16.2L12 23l-6.4-3.8L4 3z"/><path d="M8 7h8l-.5 6.1L12 14.7l-3.5-1.6L8 7z"/></svg>
+              </span>
+              <span>HTML</span>
+            </div>
+            <div class="stack-pill">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/><path d="M8 8h8M8 12h8M8 16h4"/></svg>
+              </span>
+              <span>CSS</span>
+            </div>
+            <div class="stack-pill">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M8 10.5c1.2-1.2 2.9-1.8 4-1.8s2.8.6 4 1.8"/></svg>
+              </span>
+              <span>JavaScript</span>
+            </div>
+            <div class="stack-pill">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 8h8v8H8z"/><path d="M9.5 9.5h5v5h-5z"/></svg>
+              </span>
+              <span>Blazor</span>
+            </div>
+          </div>
+        </div>
+        <div class="stack-card">
+          <h2>Backend</h2>
+          <div class="stack-list">
+            <div class="stack-pill">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 8h16M6 8v8m12-8v8M8 12h8"/><circle cx="12" cy="12" r="2"/></svg>
+              </span>
+              <span>ASP.NET</span>
+            </div>
+            <div class="stack-pill">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><text x="12" y="16" text-anchor="middle" font-size="10" font-family="Arial, sans-serif">C#</text></svg>
+              </span>
+              <span>C#</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+    <footer class="footer" id="footer">
+    <div class="prompt">
+      <span class="path">guest@joseph</span>:~$ <span>open_to_work</span><span class="cursor"></span>
+    </div>
+    <ul>
+      <li><a href="https://github.com/joseph-awolola" target="_blank">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/joseph-awolola-1689a7303/" target="_blank">Linkedin</a></li>
+      <li><a href="https://mailto:josephawolola16@gmail.com">Email</a></li>
+    </ul>
+  </footer>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </body>
